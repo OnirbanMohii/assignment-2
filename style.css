@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: gainsboro; */
+}
+
+nav {
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.menubar-2 a,
+i {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
