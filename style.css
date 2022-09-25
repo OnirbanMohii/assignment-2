@@ -11,6 +11,19 @@ nav {
     padding: 20px;
 }
 
+.active,
+.menubar-2 a:hover {
+    background-color: aliceblue;
+    border-radius: 2px;
+    padding: 5px 15px;
+}
+
+
+
+/* nav>.menubar-2:hover a {
+    background-color: white;
+} */
+
 .menubar-2 a,
 i {
     text-decoration: none;
