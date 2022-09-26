@@ -142,7 +142,7 @@ i {
 .second-button {
     font-size: 25px;
     margin-left: 75%;
-    margin-bottom: 50%;
+    margin-bottom: 50px;
 }
 
 .second-button,
@@ -153,5 +153,19 @@ a {
 
 /*--------------------- second part done --------------------------- */
 footer {
-    background-color: rgb(120, 120, 220);
+    background-color: rgb(170, 170, 216);
+    display: grid;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.social li {
+    color: white;
+    list-style: none;
+    float: left;
+    font-size: 35px;
+    display: grid;
+    justify-content: center;
+    margin-right: 7%;
 }
