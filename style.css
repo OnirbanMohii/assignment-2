@@ -108,3 +108,8 @@ h2 {
 .blog>p {
     color: rgb(131, 129, 129);
 }
+
+.blog,
+i {
+    margin-left: 0;
+}
