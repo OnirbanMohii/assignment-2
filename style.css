@@ -92,12 +92,13 @@ h2 {
     height: 525px;
     width: 320px;
     text-align: center;
+    border-radius: 10px;
     box-shadow: 1px 1px 3px grey;
 }
 
 .blog,
-img:hover {
-    box-shadow: 3px 3px 6px grey;
+/* img:hover {
+    box-shadow: 3px 3px 6px grey; */
 
 }
 
@@ -113,7 +114,9 @@ img:hover {
 }
 
 .blog>img {
-    width: 100%;
+    margin-top: 15px;
+    width: 290px;
+    border-radius: 5px;
 
 }
 
