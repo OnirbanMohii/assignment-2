@@ -4,6 +4,8 @@ body {
     /* background-color: gainsboro; */
 }
 
+
+
 nav {
     background-color: gainsboro;
     display: flex;
@@ -11,6 +13,21 @@ nav {
     padding: 20px;
     position: sticky;
 }
+
+.menu-details {
+    display: flex;
+    justify-content: space-between;
+
+    width: 80%;
+    padding: 120px;
+
+}
+
+.camera {
+    margin-left: 15%;
+}
+
+
 
 .active,
 .menubar-2 a:hover {
@@ -57,21 +74,39 @@ button {
     color: white;
 }
 
-#img {
+/* .image-1>img {
 
     margin-left: 50%;
-}
+} */
 
-.menu-details {
+
+
+/* .menu-details {
     display: flex;
     width: 70%;
     padding: 100px;
 
-}
+} */
 
 /* first part done  */
+.main-info {
+    padding: 100px;
+}
+
+h2 {
+    text-align: center;
+}
+
 .blogs {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
+}
+
+.blog>img {
+    justify-content: center;
+}
+
+.blog {
+    box-shadow: 1px 1px 2px grey;
 }
