@@ -138,3 +138,20 @@ h2 {
 i {
     margin-left: 0;
 }
+
+.second-button {
+    font-size: 25px;
+    margin-left: 75%;
+    margin-bottom: 50%;
+}
+
+.second-button,
+a {
+    text-decoration: none;
+    color: rgba(229, 16, 52, 0.89);
+}
+
+/*--------------------- second part done --------------------------- */
+footer {
+    background-color: rgb(120, 120, 220);
+}
