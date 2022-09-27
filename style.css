@@ -86,7 +86,8 @@ h2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 30px;
-    grid-column-gap: 0;
+    grid-column-gap: -300px;
+    flex-wrap: wrap;
 }
 
 .blog p {
@@ -162,22 +163,23 @@ footer {
     display: grid;
     justify-content: center;
     padding: 20px;
-
 }
 
-.social li {
-    color: white;
+h3 {
+    margin-left: 25px;
+}
+
+/* social icon  */
+.social {
     list-style: none;
-    float: left;
-    font-size: 35px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
+    margin-left: -15%;
+    font-size: 40px;
+
 }
 
-.social ul>li:hover i {
-    color: white;
+li {
+    margin-left: 25px;
 }
 
 #span {
