@@ -10,10 +10,17 @@ nav {
     background-color: gainsboro;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px;
     position: sticky;
     top: 0;
 }
+
+.menubar-2 i {
+    margin-left: 5px;
+}
+
+
+
 
 .menu-details {
     display: flex;
@@ -33,9 +40,17 @@ nav {
 .active,
 .menubar-2 a:hover {
     background-color: aliceblue;
-    border-radius: 2px;
+    /* border-radius: 10px;
+    padding: 5px 15px;
+    border: 1px solid white; */
+}
+
+.active,
+.menubar-2 a {
+    border-radius: 5px;
     padding: 5px 15px;
 }
+
 
 
 
