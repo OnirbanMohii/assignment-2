@@ -192,8 +192,11 @@ footer {
 }
 
 #footer-h {
-    margin-left: -2px;
     font-size: 30px;
+}
+
+#footer-small {
+    margin-left: 20px;
 }
 
 /* social icon  */
