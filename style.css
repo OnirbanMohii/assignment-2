@@ -9,14 +9,25 @@ body {
 nav {
     background-color: gainsboro;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding: 10px;
     position: sticky;
     top: 0;
 }
 
-.menubar-2 i {
+.menubar-1 {
+    font-size: 27px;
+    padding: 10px;
+}
+
+.menubar-2 a,
+i {
     margin-left: 5px;
+}
+
+.menubar-2 i {
+    padding: 15px;
 }
 
 
@@ -180,8 +191,9 @@ footer {
     padding: 20px;
 }
 
-h3 {
-    margin-left: 25px;
+#footer-h {
+    margin-left: -2px;
+    font-size: 30px;
 }
 
 /* social icon  */
